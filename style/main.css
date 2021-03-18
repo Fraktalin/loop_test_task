@@ -4,6 +4,7 @@
   }
   .landscape {
     height: 100vh;
+    width: 100vw;
     background-image: url(../Twinings_Assets/not_available.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -48,7 +49,6 @@ img {
   position: absolute;
   display: inline-block;
   top: 0;
-  background-color: #5746f3;
   border-radius: 100%;
   width: 35px;
   height: 35px;
@@ -89,6 +89,9 @@ img {
   -webkit-animation: top-anim 1s ease-in-out ;
   animation: top-anim 1s ease-in-out ;
 }
+.first-top--active {
+  right: -12px;
+}
 @keyframes top-anim {
   0% {
     top: -400px;
@@ -112,9 +115,9 @@ img {
 }
 .second-top {
   position: absolute;
-  top: 117px;
-  width: 61%;
-  right: 84px;
+  top: 120px;
+  width: 74%;
+  right: 51px;
   -webkit-animation: zoom 1.5s cubic-bezier(0,-1.34, 0.07,-0.12);
   animation: zoom 1.5s cubic-bezier(0,-1.34, 0.07,-0.12);
 }
