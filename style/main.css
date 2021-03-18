@@ -4,7 +4,7 @@
   }
   .landscape {
     height: 100vh;
-    background-image: url(/Twinings_Assets/not_available.png);
+    background-image: url(../Twinings_Assets/not_available.png);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -98,16 +98,16 @@ img {
   }
 }
 .tea-background {
-  background-image: url(/Twinings_Assets/peppermint-\ BG.jpg);
+  background-image: url(../Twinings_Assets/peppermint-BG.jpg);
   height: 100vh;
   position: relative;
 }
 .second-tea {
-  background-image: url(/Twinings_Assets/raspberry\ -\ BG.jpg);
+  background-image: url(../Twinings_Assets/raspberry-BG.jpg);
   height: 100vh;
 }
 .third-tea {
-  background-image: url(/Twinings_Assets/peach\ -\ BG.jpg);
+  background-image: url(../Twinings_Assets/peach-BG.jpg);
   height: 100vh;
 }
 .second-top {
@@ -228,7 +228,6 @@ img {
   right: 122px;
   top: 608px;
   width: 125px;
-  
   -webkit-animation: zoom  2.7s cubic-bezier(0,-0.81,1,-0.06) ;
   animation: zoom 2.7s cubic-bezier(0,-0.81,1,-0.06) ;
 }
@@ -285,8 +284,8 @@ img {
   top: 440px;
   transform: translate(-50%, -50%);
   animation-delay: 0.5s;
-  animation: tea-animation 1.5s ease-in-out ;
   -webkit-animation: tea-animation 1.5s ease-in-out ;
+  animation: tea-animation 1.5s ease-in-out ;
 }
 @keyframes tea-animation {
   0% {
@@ -313,7 +312,6 @@ img {
 @keyframes fade {
   from {
     opacity: .7
-    
   }
   to {
     opacity: 1
